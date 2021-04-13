@@ -8,6 +8,7 @@ public class while2 {
         while (array[i]>=0){
             System.out.println(array[i]);
             i++;
+            if (i>=array.length) break; //変数が配列を越えたら中断
         }
     }
 }

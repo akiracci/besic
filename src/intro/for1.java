@@ -9,4 +9,5 @@ public class for1 {
             System.out.println(i + "回目：" + sum);
         }
     }
+
 }
