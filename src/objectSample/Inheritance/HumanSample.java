@@ -7,5 +7,9 @@ class HumanSample {
         human1.hello();//Hello my naem is Tom.
         Japanese japanese1 = new Japanese("たけし");
         japanese1.hello();//こんにちは、わたしの名前はたけしです。
+        Chinese chinese1 = new Chinese("文聘");
+        chinese1.hello();
+        French french1 = new French("Napoleone");
+        french1.hello();
     }
 }
