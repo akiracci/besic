@@ -29,8 +29,8 @@ public class Literal {
         double num9 = 0.123e+2;//0.123*10^2
         double num10 = 0123e-2;//0.123*10-2
 
-        System.out.println("num9" + num9);
-        System.out.println("num10" + num10);
+        System.out.println("num9 " + num9);
+        System.out.println("num10 " + num10);
 
         //文字型リテラル
         char c1 = 'A';
