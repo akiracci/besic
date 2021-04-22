@@ -17,6 +17,7 @@ public class ArithmeticOperator {
         System.out.println(c + " / " + d + " = " + (c/d));
         System.out.println(c + " % " + d + " = " + (c%d));
         System.out.println(c + d);
+        System.out.println(c + d);
 
     }
 }
