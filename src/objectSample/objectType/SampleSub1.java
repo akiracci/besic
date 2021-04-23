@@ -6,6 +6,7 @@ class SampleSub1 extends SampleSuper implements IfMethodA,IfMethodB {
         super(superFiled);
     }
 
+
     @Override
     public void methodA() {
         System.out.println("A");
