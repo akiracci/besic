@@ -3,7 +3,7 @@ package objectSample.equalsSample;
 import java.util.Objects;
 
 class Sample2 {
-    private  String name;
+    private String name;
     private int age;
 
     public Sample2(String name, int age) {
@@ -19,6 +19,7 @@ class Sample2 {
         return age;
     }
 
+    //サブクラスを同一としない
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

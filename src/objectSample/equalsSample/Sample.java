@@ -2,23 +2,23 @@ package objectSample.equalsSample;
 
 import java.util.Objects;
 
-public class Sample {
+class Sample {
     private String keyword;
+
     public Sample(String keyword) {
         this.keyword = keyword;
     }
 
-    public String getKeyword(){
+    public String getKeyword() {
         return keyword;
-
     }
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true; //オブジェクトが同一である?
+        if (this == o) return true;//オブジェクトが同一である
         if (!(o instanceof Sample)) return false;//クラスが異なるので不一致
         Sample sample = (Sample) o;//クラスが一致しているので型変換
-        //型変換ののちobjectsクラスのequalesメソッドで比較する
+        //型変換ののちObjectsクラスのequalsメソッドで比較する
         return Objects.equals(getKeyword(), sample.getKeyword());
     }
 
