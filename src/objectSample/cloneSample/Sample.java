@@ -5,6 +5,8 @@ class Sample implements Cloneable {
     private int num;//基本型
     private Node node;//参照型
 
+
+    //防衛的コピー？↓
     public Sample(int num, Node node) {
         this.num = num;
         this.node = new Node(node);//ポインタの参照を断ち切るため
