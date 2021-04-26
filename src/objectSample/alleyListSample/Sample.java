@@ -16,13 +16,6 @@ class Sample {
     public int getAge() {
         return age;
     }
-/* public String getName() {
-        return name;
-    }
-
-    public int getAge() {
-        return age;
-    } */
 
     @Override
     public String toString() {
