@@ -1,4 +1,4 @@
-package objectSample.alleyListSample;
+package objectSample.arrayListSample;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -12,7 +12,7 @@ public class ArreyList2 {
 
         //要素の検証
         if (list.contains("Bob")) {
-            //Bobは存在する
+            //Bobは存在する時
             int index = list.indexOf("Bob");
             System.out.println(index + ":" + list.get(index));
         }

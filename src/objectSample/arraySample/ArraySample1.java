@@ -2,7 +2,7 @@ package objectSample.arraySample;
 
 import java.util.Arrays;
 
-//配列のサンプル　配列を初期化する方法の三つ
+
 
 class ArraySample1 {
     //配列を引数としたstaticメソッド　②合計を求めるメソッド
@@ -14,7 +14,7 @@ class ArraySample1 {
     return sum;
     }
 
-
+    //配列のサンプル　配列を初期化する方法の三つ
     public static void main(String[] args) {
         //配列の宣言①
         int[] array1 = new int[10];//サイズ（配列の数）を指定

@@ -1,4 +1,4 @@
-package objectSample.alleyListSample;
+package objectSample.arrayListSample;
 
 import java.util.ArrayList;
 import java.util.Arrays;

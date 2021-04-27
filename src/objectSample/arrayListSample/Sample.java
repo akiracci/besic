@@ -1,4 +1,4 @@
-package objectSample.alleyListSample;
+package objectSample.arrayListSample;
 
 class Sample {
     private String name;
