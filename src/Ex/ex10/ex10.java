@@ -37,7 +37,7 @@ class Ex10 {
         }
 
         //全員を対象に国語の得点の降順に並び替えて一覧表示しなさい。
-        list.sort(Comparator.comparing(Student::getJap,Comparator.reverseOrder()));
+        list.sort(Comparator.comparing(Student::getJap,Comparator.reverseOrder()));//ソートメソッド
         System.out.println("国語の得点の降順");
         for (Student s:list) System.out.println(s);
 
