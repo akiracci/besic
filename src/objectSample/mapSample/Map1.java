@@ -8,9 +8,9 @@ public class Map1 {
     public static void main(String[] args) {
         Map<String,String> map = new HashMap<>(); //KとVすなわちKeyとValueを指定するので<>の中は二つの型を指定
 
-        //
+        //Kyeはインデックス扱いなので重複ないよ。
 
-        map.put("Apple","りんご");
+        map.put("Apple","りんご"); //Appleがkey　りんごがValue
         map.put("Banana","バナナ");
         map.put("Orange","オレンジ");
         //一覧の表示

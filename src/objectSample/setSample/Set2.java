@@ -8,8 +8,8 @@ import java.util.TreeSet;
 public class Set2 {
     public static void main(String[] args) {
         Set<Integer> hashSet = new HashSet<>();
-        Set<Integer> linkedHashSet = new LinkedHashSet<>();
-        Set<Integer> treeSet = new TreeSet<>();
+        Set<Integer> linkedHashSet = new LinkedHashSet<>();//順序どおり格納する
+        Set<Integer> treeSet = new TreeSet<>();//二分探索木　ソトーしながら追加　昇順　並び替えできる
 
         for (int i = 100; i>0; i-=3){
             hashSet.add(i);

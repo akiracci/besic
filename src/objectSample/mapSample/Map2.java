@@ -14,7 +14,7 @@ public class Map2 {
     }
     public static void main(String[] args) {
         //MemberのArrayListを作成する
-        List<Member> member = new ArrayList<>();
+        List<Member> member = new ArrayList<>();//ArrayList<>()の括弧のなかにデータの数すなわち要素の数を事前に予約できる。
         member.addAll(Arrays.asList(
                 new Member("1","Tom"),
                 new Member("2","Bob"),
