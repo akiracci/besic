@@ -31,6 +31,5 @@ class ArraySample1 {
     //②配列を引数に記述する場合
         System.out.println(ArraySample1.sum(array2));
         System.out.println(ArraySample1.sum(new int[]{10,20,30}));
-
     }
 }

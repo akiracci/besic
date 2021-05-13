@@ -1,4 +1,6 @@
 package intro;
+
+//while文　設定した条件になるまで処理を繰り返す文
 //whilelサンプル１
 public class while1 {
     public static void main(String[] args) {
