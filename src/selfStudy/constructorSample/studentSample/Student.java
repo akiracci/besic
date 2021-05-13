@@ -1,4 +1,4 @@
-package objectSample;
+package selfStudy.constructorSample.studentSample;
 
 class Student {
     private String name;
@@ -6,6 +6,7 @@ class Student {
     private int cl;
     private int no;
 
+    //コンストラクター
     public Student(String name, int grade, int cl, int no) {
         this.name = name;
         this.grade = grade;
