@@ -29,7 +29,7 @@ class Human {
         return age;
     }
 
-
+//オーバーライド　
     @Override
     public String toString() {
         return "Human{" +
