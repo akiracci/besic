@@ -10,7 +10,7 @@ public class HumanSample {
 //試し。privateをpublicに変する
 
 //各データを表示する
-        System.out.println(new Human("やあだ","おとこ",23));
+        System.out.println(new Human("やあだ","おとこ",23 ));
         //System.out.println(human1.getNama());
         //System.out.println(human1.getGeder());
         //System.out.println(human1.getAge());

@@ -9,12 +9,18 @@ class Humans {
 
 
 
+
     //コンストラクター
     public Humans(String name, String geder, int age) {
         this.nama = name;
         this.geder = geder;
         this.age = age;
     }
+
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
     //ゲッター　
 //アクセス装飾子　戻り値の型　メソッド　return文　戻り値
     public String getNama() {
