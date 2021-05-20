@@ -50,7 +50,7 @@ class Member {
 //String toStringメソッドはなんでも文字列で表示してくれるメソッド。やらないとおかしな文字列で表示されちゃう
 //フィールドの変数をtoStringで正しく文字列表示できるようにしつつString.formatで表示のテンプレを作ってる。%が書式の宣言でアルファベットが型を指定してるよ
 
-    @Override
+   @Override
     public String toString() {
         return String.format("%s %s %d %s %s",
                 id,name,rank,club,position);

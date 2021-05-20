@@ -9,6 +9,9 @@ public class FormatSample {
 
         public static void main(String[] args) {
 
+
+
+
             //String.format
             String name = "Tom";
             int age =29;

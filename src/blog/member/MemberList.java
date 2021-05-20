@@ -20,5 +20,9 @@ public class MemberList {
         for (Member member : members) {
             System.out.println(member);
         }
+
+        for (int i = 0; i < members.length; i++) {
+            System.out.println(members[i]);
+        }
     }
 }
