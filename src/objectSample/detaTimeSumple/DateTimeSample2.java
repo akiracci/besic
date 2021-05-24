@@ -2,7 +2,7 @@ package objectSample.detaTimeSumple;
 
 import java.time.LocalDateTime;
 import java.time.Month;
-
+//278p
 class DateTimeSample2 {
     public static void main(String[] args) {
         LocalDateTime someDateTime = LocalDateTime.of(1981, Month.NOVEMBER,25,18,0,0);
@@ -19,5 +19,6 @@ class DateTimeSample2 {
         System.out.println(someDateTime.getDayOfMonth());//25 当月の何日目か
         System.out.println(someDateTime.getDayOfWeek());//WEDNESDAY　何曜日か
         System.out.println(someDateTime.getDayOfWeek().getValue());
+
     }
 }

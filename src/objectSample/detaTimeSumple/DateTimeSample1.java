@@ -10,13 +10,13 @@ public class DateTimeSample1 {
 
 
         //現在日時
-        LocalDate nowDate = LocalDate.now();
-        LocalTime nowTime = LocalTime.now();
+        LocalDate nowDate = LocalDate.now();//現在の日付を取得
+        LocalTime nowTime = LocalTime.now();//現在の時間を取得
         LocalDateTime nowDeteTime = LocalDateTime.now();
         System.out.println(nowDate);
         System.out.println(nowDate);
         System.out.println(nowDeteTime);
-
+        System.out.println();
         //任意の日時を指定
         LocalDate someDate = LocalDate.of(1981,11,25);
         LocalTime someTime = LocalTime.of(18,0,0);
@@ -24,7 +24,7 @@ public class DateTimeSample1 {
         System.out.println(someDate);
         System.out.println(someTime);
         System.out.println(someDateTime);
-
+        System.out.println();
 
         //日付文字列から ISO形式の文字列から
 

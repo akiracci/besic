@@ -17,8 +17,10 @@ public class DateTimeSample4 {
         System.out.println(now.plusMinutes(1));
         System.out.println(now.plusSeconds(1));
         System.out.println(now.plusNanos(1));
-
+        System.out.println();
         //値を調整する
+        System.out.println(now);
+        System.out.println();
         System.out.println(now.withYear(3000));
         System.out.println(now.withMonth(8));
         System.out.println(now.withDayOfMonth(5));

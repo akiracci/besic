@@ -6,7 +6,7 @@ import java.time.format.DateTimeFormatter;
 import java.time.temporal.TemporalAccessor;
 
 public class DateTImeSample5 {
-
+//285p
     public static void main(String[] args) {
         //日付の表示フォーマットを作成する
 
