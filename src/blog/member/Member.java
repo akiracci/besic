@@ -26,7 +26,7 @@ class Member {
 //呼び出されたらフィールドで指定した変数を出すメソッドですね。
 //ここでのreturnは変数を指定してメソッドを終わらせてる。
 //このメソッドは呼び出されない限り機能は見えない。
-    public String getId(){
+ /*   public String getId(){
         return id;
     }
     public String getName() {
@@ -44,7 +44,7 @@ class Member {
     public String getPosition() {
         return position;
     }
-
+*/
 
 //オーバーライド。　上書きする処理。
 //String toStringメソッドはなんでも文字列で表示してくれるメソッド。やらないとおかしな文字列で表示されちゃう
