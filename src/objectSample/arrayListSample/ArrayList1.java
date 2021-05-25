@@ -11,20 +11,21 @@ public class ArrayList1 {
         //List<データの型（参照型）> 変数名 = new ArrayList<>(); アレーリストの書式　　
         List<Integer> list = new ArrayList<>();
 
-    //データの末尾への追加 list.add()で追加
+        //データの末尾への追加 list.add()で追加
         list.add(10);
         list.add(20);
         list.add(30);
 
 
         //データの取得・参照 表示
-        System.out.println(list.get(0));//要素0 id0ほ表示　10
+        System.out.println(list.get(0));//要素0 id0ほ表示 10
         System.out.println(list.get(1));//要素1 id1ほ表示 20
         System.out.println(list.get(2));//要素2 id2ほ表示 30
         System.out.println(Arrays.toString(list.toArray()));//配列に変換して表示list.toArray()
-
+        System.out.println();
         for (Integer i:list) System.out.println(i);
 
+        System.out.println();
         list.add(1,50);//インデックス（id）1番に追加する書式。他は後ろにずれる
         System.out.println(Arrays.toString(list.toArray()));
 

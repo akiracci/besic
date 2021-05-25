@@ -1,5 +1,6 @@
 package intro;
 
+
 public class For3 {
     public static void main(String[] args) {
         int[] array = {20,30,10,50,40}; //配列の宣言

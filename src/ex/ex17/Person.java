@@ -14,12 +14,13 @@ class Person {
 
     Person(String name, Gender gender, String birth){
 
-        this.name =name;
-        this.gender =gender;
+        this.name = name;
+        this.gender = gender;
         this.birth = LocalDate.parse(birth);
     }
 
     public String getName() {
+
         return name;
     }
 
