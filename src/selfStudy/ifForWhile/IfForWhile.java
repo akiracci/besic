@@ -9,5 +9,9 @@ for (int i:list){
 }
     System.out.println(i);
 }
-}}
+for (int t=0; t<list.length ;++t) {
+    if(list[t]<0){continue;
+
+    } System.out.println(list[t]);
+}}}
 
