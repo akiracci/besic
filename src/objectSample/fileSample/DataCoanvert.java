@@ -38,9 +38,9 @@ class DataCoanvert {
 
         for (String line:readData){
             String[] splitData = line.split(",",3);//データを分割
-            //System.out.println(splitData[0]);
-            //System.out.println(splitData[1]);
-            //System.out.println(splitData[2]);
+            System.out.println("test1: " + splitData[0]);
+            System.out.println("test2: " + splitData[1]);
+            System.out.println("test3: " + splitData[2]);
 
             String name = splitData[0];
             Gender gender = null;

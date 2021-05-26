@@ -5,6 +5,7 @@ import objectSample.exceptionSample.original.Gender;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 
 class Person {
@@ -37,6 +38,15 @@ private LocalDate birth;
         );
 
 
+    }
+
+    public String toCsv(){
+        //String.formatの変わりにString.join
+        return String.join( ",",
+                name,
+                gender.getName(),
+                DateTimeFormatter.ofPattern("yyyy-MM-dd").format(birth)
+        );
     }
     /**
      * 年齢を所得する

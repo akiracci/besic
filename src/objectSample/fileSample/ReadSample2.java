@@ -14,6 +14,7 @@ class ReadSample2 {
 
         try(BufferedReader br = Files.newBufferedReader(path, StandardCharsets.UTF_8)) {
             String line = br.readLine();
+            //newBufferedReaderがファイルデータ１行づつ読み込む命令
             //一行分読む　行がなくなればnullになる
             while (line != null) { //lineがnullになるまでくりかえし
                 System.out.println(line);

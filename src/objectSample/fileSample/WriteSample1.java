@@ -25,6 +25,7 @@ class WriteSample1 {
         Path path = Paths.get("src","objectSample","fileSample","output1.csv");
 
         try {
+            //Files.write　大事
             Files.write(path,data, StandardCharsets.UTF_8, StandardOpenOption.CREATE);
         } catch (IOException e) {
             e.printStackTrace();
