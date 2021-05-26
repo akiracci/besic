@@ -24,9 +24,10 @@ class WriteSample2 {
 
         Path path = Paths.get("src", "objectSample", "fileSample", "output2.csv");
 //https://docs.oracle.com/javase/jp/11/docs/api/java.base/java/nio/file/Files.html#newBufferedWriter(java.nio.file.Path,java.nio.charset.Charset,java.nio.file.OpenOption...)
+        //newBufferedWriter 1行づつ書き込み
         try (BufferedWriter bw = Files.newBufferedWriter(path, StandardCharsets.UTF_8, StandardOpenOption.CREATE)) {//StandardOpenOption.の定数の種類下に記載
-            for (String line:data) {//一行分読み込んでbw.write(line);でlineに書き込み
-                bw.write(line);
+            for (String line:data) {//一行分読み込んでbw.write(line);で１行づつlineに書き込み
+                bw.write(line);//write：ライト　
                 bw.newLine();
             }
         } catch (IOException e) {
