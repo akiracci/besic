@@ -1,6 +1,6 @@
 package objectSample.streamSample.lambda;
 
-
+//テキストなし ローカルクラス　無名クラス
 //Runnable　runしかメソッドを持たないクラス。　Runnableを使う＝runを使う
 //runは空のメソッド。オーバーローして使うのが前提。
 public class AnonymousClassSample {
