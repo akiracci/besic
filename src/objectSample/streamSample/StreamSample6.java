@@ -5,11 +5,16 @@ import java.util.List;
 import java.util.Optional;
 import java.util.OptionalDouble;
 
+
+//streamのいろいろ
 public class StreamSample6 {
     public static void main(String[] args) {
         List<Integer> integerList = List.of(1,2,3,4,5);
 
+        //一覧
+        System.out.println("元のデータ" + integerList);
 
+        //合計を求める
         int sum =integerList.stream()
                 .mapToInt(i -> i)//IntStreamに変換
                 .sum();//合計を求める
@@ -19,7 +24,7 @@ public class StreamSample6 {
         OptionalDouble ave = integerList.stream()
                 .mapToDouble(i -> (double) i)
                 .average();
-        ;
+
         System.out.println("平均を求める " + ave.orElse(0));
 
         //データの個数を求める

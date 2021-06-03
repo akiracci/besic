@@ -5,7 +5,7 @@ class IfHelloSample {
     public static void main(String[] args) {
         //インターフェイスの型になっている点に注意
         IfHello[] humans = {
-                //new American("Tom"),
+                new American("Tom"),
                 new Japanese("たけし"),
                 new Chinese("李"),
                 new French("Gabriel")

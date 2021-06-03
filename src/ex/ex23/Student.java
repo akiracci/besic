@@ -1,4 +1,4 @@
-package ex.ex14;
+package ex.ex23;
 
 import objectSample.exceptionSample.original.Gender;
 
