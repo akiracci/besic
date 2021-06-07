@@ -8,7 +8,7 @@ public class TypeConversion {
         Integer num = Integer.valueOf("12345");
         Integer num2 =Integer.parseInt("12345");
         Integer num4 = Integer.valueOf("010101",2);
-
+        System.out.println(num2);
         //文字列→少数
         Double dnum = Double.valueOf("12.34");
         Double dnum2 = Double.parseDouble("12.34");

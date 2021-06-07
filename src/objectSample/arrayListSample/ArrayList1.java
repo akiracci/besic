@@ -18,9 +18,9 @@ public class ArrayList1 {
 
 
         //データの取得・参照 表示
-        System.out.println(list.get(0));//要素0 id0ほ表示 10
-        System.out.println(list.get(1));//要素1 id1ほ表示 20
-        System.out.println(list.get(2));//要素2 id2ほ表示 30
+        System.out.println("index 0: "+ list.get(0));//要素0 id0ほ表示 10
+        System.out.println("index 1: "+ list.get(1));//要素1 id1ほ表示 20
+        System.out.println("index 2: "+ list.get(2));//要素2 id2ほ表示 30
         System.out.println(Arrays.toString(list.toArray()));//配列に変換して表示list.toArray()
         System.out.println();
         for (Integer i:list) System.out.println(i);
@@ -28,15 +28,15 @@ public class ArrayList1 {
         System.out.println();
         list.add(1,50);//インデックス（id）1番に追加する書式。他は後ろにずれる
         System.out.println(Arrays.toString(list.toArray()));
-
+        System.out.println();
         //データの末尾に複数ついかする
         list.addAll(Arrays.asList(100,60,90));//配列をList変換して複数追加　配列
         System.out.println(Arrays.toString(list.toArray()));
-
+        System.out.println();
         //複数のデータを指定された位置に挿入する
         list.addAll(2,Arrays.asList(40,80,70));
         System.out.println(Arrays.toString(list.toArray()));
-
+        System.out.println();
         //サイズの取得
         System.out.println(list.size());
 
