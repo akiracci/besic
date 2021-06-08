@@ -10,7 +10,7 @@ public class ExceptionSample3 {
         }
     }
     public static void main(String[] args) {
-        //メソッドで検索例外をスローするとtry catchブロックを書く必要がある
+        //メソッドで検査例外をスローするとtry catchブロックを書く必要がある
         try {
             System.out.println(getLength("abc"));
             System.out.println(getLength(null));
